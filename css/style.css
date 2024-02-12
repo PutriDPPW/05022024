@@ -49,7 +49,5 @@
 
   footer {
     padding: 5px;
-    display: grid;
-    align-items: end;
     height: 100%;
   }
