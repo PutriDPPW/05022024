@@ -11,7 +11,8 @@
 
 .grid {    
     margin-top: 0px;
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -20,11 +21,8 @@
 
   p {
     text-align: center;
+    margin: 5px;
   }
-
-  /* div p {
-    width: 500px;
-  } */
 
   .tombol {
     width: 100px;
@@ -47,4 +45,13 @@
 
   h3 {
     text-align: center;
+  }
+
+  footer {
+    padding: 5px;
+    display: grid;
+    align-items: end;
+    color: #fff;
+    background-color: #474747;
+    height: 100%;
   }
