@@ -1,12 +1,32 @@
+
+@media only screen and (max-width: 100px) {
+    
+    .container {
+        margin-top: 0px;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 body {
     background-color: gainsboro;
     padding: 0px;
     margin: 0px;
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.container-side {
+    width: 16.66%;
 }
 
 .container {
     margin-top: 0px;
     height: 100%;
+    width: 66.66%;
     background-color: #fff;
     display: flex;
     align-items: center;
