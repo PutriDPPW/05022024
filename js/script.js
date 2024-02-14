@@ -3,6 +3,7 @@ var mode = 0;
 function ulang() {
     document.getElementById("box1").value = "";
     document.getElementById("box2").value = "";
+    hapus();
 }
 
 function konvert() {
@@ -37,11 +38,16 @@ function tuker() {
     var c = document.getElementById("box2").value;
     document.getElementById("box1").value = c;
     document.getElementById("box2").value = f;
-    tulis();
+    // tulis();
+    hapus();
 }
 
 function tulis() {
     var x = document.getElementById("box1").value;
     var y = document.getElementById("teks1").textContent;
     y == "Celcius (°C): " ? document.getElementById("cara").innerHTML="(9/5x"+x+")+32="+((9/5*x)+32) : document.getElementById("cara").innerHTML="("+x+"-32)x5/9="+((x-32)*5/9);
+}
+
+function hapus() {
+    document.getElementById("cara").innerHTML="";
 }
