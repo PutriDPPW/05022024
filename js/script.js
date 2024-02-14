@@ -49,5 +49,5 @@ function tulis() {
 }
 
 function hapus() {
-    document.getElementById("cara").innerHTML="";
+    document.getElementById("cara").innerHTML="[Script]";
 }
